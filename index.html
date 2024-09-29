@@ -16,7 +16,9 @@
     <div class="container">
       <section class="grid-100 header-img-box" style="display: flex">
         <div>
-          <button class="btn"
+          <button
+            class="btn"
+            id="view-cart"
             style="float: left; background-color: white; border-color: white"
           >
             <img
@@ -43,6 +45,8 @@
           />s
         </div>
       </section>
+      <section id="cart-headers"></section>
+      <section id="cart-items"></section>
       <section>
         <h1 class="title">OUR PRODUCTS</h1>
         <div class="grid-100 products-images">
@@ -83,7 +87,12 @@
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
               <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <button
+                class="btn add-to-cart"
+                data-id="1"
+                data-name="Suit Italia"
+                data-price="45.36"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -124,11 +133,16 @@
                 <!--swiper pagination-->
                 <div class="swiper-pagination"></div>
               </div>
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Japan</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
-              <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b>Stock:</b> 10</p>
+              <p class="image-words"><b> Cost:</b> $40</p>
+              <button
+                class="btn add-to-cart"
+                data-id="2"
+                data-name="Suit Japan"
+                data-price="40"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -146,11 +160,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Germany</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $80</p>
+              <button
+                class="btn add-to-cart"
+                data-id="3"
+                data-name="Suit Germany"
+                data-price="80"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -168,11 +187,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Kenya</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
-              <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b>Stock:</b> 4</p>
+              <p class="image-words"><b> Cost:</b> $12</p>
+              <button
+                class="btn add-to-cart"
+                data-id="4"
+                data-name="Suit Kenya"
+                data-price="12"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -192,11 +216,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit UK</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $100</p>
+              <button
+                class="btn add-to-cart"
+                data-id="5"
+                data-name="Suit UK"
+                data-price="100"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -214,11 +243,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Australia</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $245</p>
+              <button
+                class="btn add-to-cart"
+                data-id="6"
+                data-name="Suit Australia"
+                data-price="245"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -236,11 +270,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Ethiopia</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $33.27</p>
+              <button
+                class="btn add-to-cart"
+                data-id="7"
+                data-name="Suit Ethiopia"
+                data-price="33.27"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -258,11 +297,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Romania</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $22.34</p>
+              <button
+                class="btn add-to-cart"
+                data-id="8"
+                data-name="Suit Romania"
+                data-price="22.34"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -289,11 +333,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Naija</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $20</p>
+              <button
+                class="btn add-to-cart"
+                data-id="9"
+                data-name="Suit Naija"
+                data-price="20"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -311,11 +360,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit India</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $11.36</p>
+              <button
+                class="btn add-to-cart"
+                data-id="10"
+                data-name="Suit India"
+                data-price="11.36"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -333,11 +387,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Norway</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $25.36</p>
+              <button
+                class="btn add-to-cart"
+                data-id="11"
+                data-name="Suit Norway"
+                data-price="25.36"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
@@ -355,11 +414,16 @@
                 alt="suit guy"
                 class="img-product"
               />
-              <h3 class="image-words">Name: Suit Italia</h3>
+              <h3 class="image-words">Name: Suit Sweden</h3>
               <p class="image-words"><b>Desc:</b> Business Guest</p>
               <p class="image-words"><b>Stock:</b> 12</p>
-              <p class="image-words"><b> Cost:</b> $45.36</p>
-              <button class="btn">
+              <p class="image-words"><b> Cost:</b> $5</p>
+              <button
+                class="btn add-to-cart"
+                data-id="12"
+                data-name="Suit Sweden"
+                data-price="5"
+              >
                 <img
                   src="assets/add-to-cart.png"
                   style="
